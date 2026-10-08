@@ -327,8 +327,8 @@ x86_64 archive, so Intel-compatible artifacts cannot be published accidentally.
 ## Good to know
 
 - **Rename:** Termini evolved from `TermBridgeKit` (renamed at 0.1.0). The bundled
-  `GhosttyKit.xcframework` is still hosted on the legacy `arach/TermBridgeKit` GitHub
-  releases, and a few env-var names still carry the `TERMBRIDGEKIT_` prefix.
+  `GhosttyKit.xcframework` is published as this repo's `ghosttykit-<version>` releases;
+  a few env-var names still carry the `TERMBRIDGEKIT_` prefix.
 - **0.2.0 product split:** SSH moved into its own `TerminiSSH` product so macOS-direct apps
   can ship the renderer + local shell without carrying SwiftNIO/NIOSSH. No renderer or SSH
   type was removed — existing SSH integrations just add `import TerminiSSH` alongside
